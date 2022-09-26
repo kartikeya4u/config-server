@@ -15,12 +15,12 @@ eureka:
     hostname: localhost  
 server:
   ssl:
-    trust-store: "C:KartikeyaSmartmeterbranchesAssetModelChangesssl\testclient.jks"
+    trust-store: "C:\\Kartikeya\\Smartmeter\\branches\\AssetModelChanges\\ssl\\testclient.jks"
     trust-store-type: JKS
     key-store-password: client
     key-store-type: JKS
     key-store-provider: SUN
-    key-store: "C:KartikeyaSmartmeterbranchesAssetModelChangesssl\testclient.jks"
+    key-store: "C:\\Kartikeya\\Smartmeter\\branches\\AssetModelChanges\\ssl\\testclient.jks"
     enabled: 'true'
     key-alias: client
     key-password: client
@@ -28,6 +28,6 @@ server:
 javax:
   net:
     ssl:
-      trustStore: "C:KartikeyaSmartmeterbranchesAssetModelChangesssl\testclient.jks"
+      trustStore: "C:\\Kartikeya\\Smartmeter\\branches\\AssetModelChanges\\ssl\\testclient.jks"
       trustStorePassword: client
 
