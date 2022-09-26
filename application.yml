@@ -13,3 +13,5 @@ eureka:
     register-with-eureka: 'true'
   instance:
     hostname: localhost
+    secure-port-enabled: 'true'
+    non-secure-port-enabled: 'false'
