@@ -8,8 +8,26 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: https://localhost:8761/eureka/
     fetch-registry: 'true'
     register-with-eureka: 'true'
   instance:
-    hostname: localhost
+    hostname: localhost  
+server:
+  ssl:
+    trust-store: "C:KartikeyaSmartmeterbranchesAssetModelChangesssl\testclient.jks"
+    trust-store-type: JKS
+    key-store-password: client
+    key-store-type: JKS
+    key-store-provider: SUN
+    key-store: "C:KartikeyaSmartmeterbranchesAssetModelChangesssl\testclient.jks"
+    enabled: 'true'
+    key-alias: client
+    key-password: client
+    trust-store-password: client
+javax:
+  net:
+    ssl:
+      trustStore: "C:KartikeyaSmartmeterbranchesAssetModelChangesssl\testclient.jks"
+      trustStorePassword: client
+
