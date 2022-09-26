@@ -5,29 +5,3 @@ spring:
     url: jdbc:postgresql://localhost:5432/smartmeter_db
     password: postgres
     initialize: 'true'
-eureka:
-  client:
-    service-url:
-      defaultZone: https://localhost:8761/eureka/
-    fetch-registry: 'true'
-    register-with-eureka: 'true'
-  instance:
-    hostname: localhost  
-server:
-  ssl:
-    trust-store: "C:\\Kartikeya\\Smartmeter\\branches\\AssetModelChanges\\ssl\\testclient.jks"
-    trust-store-type: JKS
-    key-store-password: client
-    key-store-type: JKS
-    key-store-provider: SUN
-    key-store: "C:\\Kartikeya\\Smartmeter\\branches\\AssetModelChanges\\ssl\\testclient.jks"
-    enabled: 'true'
-    key-alias: client
-    key-password: client
-    trust-store-password: client
-javax:
-  net:
-    ssl:
-      trustStore: "C:\\Kartikeya\\Smartmeter\\branches\\AssetModelChanges\\ssl\\testclient.jks"
-      trustStorePassword: client
-
